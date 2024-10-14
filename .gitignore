@@ -1,3 +1,5 @@
+/**/*.db
+
 node_modules
 dist
 .data
@@ -7,3 +9,4 @@ dist
 .env
 *.db
 **/*.db
+/**/*.db
