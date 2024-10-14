@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.20.0",
+    "@types/cors": "^2.8.17",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "nitropack": "latest",
+    "zod": "^3.23.8"
+  },
+  "dependencies": {
+    "prisma": "^5.20.0"
+  }
+}
